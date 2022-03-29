@@ -83,8 +83,6 @@ function validaCPF() {
   
       if (digitos[9] != verificador1 && digitos[10] != verificador2) {
         alert('CPF inválido.')
-      } else {
-        alert('CPF válido.')
       }
     }
   }while(CPF.length != 11 || isNaN(check))
